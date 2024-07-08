@@ -36,7 +36,9 @@ setPassword(pass);
 
     const copytoClipboard = () => {
         window.navigator.clipboard.writeText(password);
-        inputRef.current.select();
+        inputRef.current.value
+        console.log(inputRef.current.value)
+        
         alert('password copied to clipboard');
     }
 
