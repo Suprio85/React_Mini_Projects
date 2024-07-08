@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 
 
-const App = () => {
+const Counter = () => {
   const [count,setCount] = useState(12);
 
   const incrementer = () => {
@@ -24,7 +24,6 @@ const App = () => {
     Increment
   </button>
       <h1 > Count is {count} </h1>
-      <p > tumi ekta beyadop</p>
       <button
     type="button"
     onClick={decrementer}
@@ -37,4 +36,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Counter
