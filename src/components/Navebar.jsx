@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import {FaCartPlus, FaCartArrowDown  } from 'react-icons/fa'
+import { IoCart } from 'react-icons/io5'
 
 const Navbar = () => {
   return (
@@ -17,7 +19,7 @@ const Navbar = () => {
             }
             activeClassName="text-white"
           >
-            Counter
+            {" "} Counter
           </NavLink>
         </li>
         <li>

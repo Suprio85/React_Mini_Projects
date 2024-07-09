@@ -12,6 +12,7 @@ import { BrowserRouter as Router, Route, Routes,createBrowserRouter,createRoutes
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import MainLayout from './layouts/MainLayout.jsx'
+import ExcuseMaker2 from './ExcuseMaker2.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -30,10 +31,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
    </Routes>
     </main>
     <Footer />
-  </Router>
- 
-  
-)
+  </Router>  
+ )
 
 //Alternate way to render the above code
 
@@ -53,11 +52,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 // )
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
-//   <RouterProvider router={router} >
-//     <main className="flex-grow container mx-auto px-4 py-6">
-
-//     </main>
-//   </RouterProvider>
+//  <ExcuseMaker2/>
     
 //   )
 
